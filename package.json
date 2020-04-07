@@ -1,0 +1,48 @@
+{
+  "name": "riadiati-quizz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/bootstrap": "^4.3.2",
+    "bootstrap": "^4.4.1",
+    "bootstrap-slider": "^10.6.2",
+    "html2canvas": "^1.0.0-rc.5",
+    "jquery": "^3.4.1",
+    "katex": "^0.11.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0",
+    "react-bootstrap-range-slider": "^0.3.1",
+    "react-dom": "^16.13.1",
+    "react-dropdown-select": "^4.3.0",
+    "react-image-crop": "^8.6.1",
+    "react-image-file-resizer": "^0.2.1",
+    "react-resize-image": "^1.0.4",
+    "react-scripts": "3.4.1",
+    "screenshot-desktop": "^1.12.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
