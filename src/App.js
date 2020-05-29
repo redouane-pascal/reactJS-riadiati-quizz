@@ -60,7 +60,7 @@ window.addEventListener("paste", function (e) {
 
         var newCanvas = document.getElementById("myCanvas");
         var newCtx = newCanvas.getContext("2d");
-        newCtx.drawImage(img, -952, -109);
+        newCtx.drawImage(img, -952, -113);
 
         let uri = newCanvas.toDataURL();
         console.log(newCanvas.toDataURL());
