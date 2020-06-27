@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reactJS-riadiati-quizz/static/css/main.49a4f0d7.chunk.css",
-    "main.js": "/reactJS-riadiati-quizz/static/js/main.a49f185b.chunk.js",
-    "main.js.map": "/reactJS-riadiati-quizz/static/js/main.a49f185b.chunk.js.map",
+    "main.js": "/reactJS-riadiati-quizz/static/js/main.bf04d593.chunk.js",
+    "main.js.map": "/reactJS-riadiati-quizz/static/js/main.bf04d593.chunk.js.map",
     "runtime-main.js": "/reactJS-riadiati-quizz/static/js/runtime-main.57650cd3.js",
     "runtime-main.js.map": "/reactJS-riadiati-quizz/static/js/runtime-main.57650cd3.js.map",
     "static/css/2.d07bc061.chunk.css": "/reactJS-riadiati-quizz/static/css/2.d07bc061.chunk.css",
     "static/js/2.d45c57d5.chunk.js": "/reactJS-riadiati-quizz/static/js/2.d45c57d5.chunk.js",
     "static/js/2.d45c57d5.chunk.js.map": "/reactJS-riadiati-quizz/static/js/2.d45c57d5.chunk.js.map",
     "index.html": "/reactJS-riadiati-quizz/index.html",
-    "precache-manifest.3e63fac01dca145f8a913ab7c730d783.js": "/reactJS-riadiati-quizz/precache-manifest.3e63fac01dca145f8a913ab7c730d783.js",
+    "precache-manifest.d9c80e7c324ecdf09a5c17a4a9571af4.js": "/reactJS-riadiati-quizz/precache-manifest.d9c80e7c324ecdf09a5c17a4a9571af4.js",
     "service-worker.js": "/reactJS-riadiati-quizz/service-worker.js",
     "static/css/2.d07bc061.chunk.css.map": "/reactJS-riadiati-quizz/static/css/2.d07bc061.chunk.css.map",
     "static/css/main.49a4f0d7.chunk.css.map": "/reactJS-riadiati-quizz/static/css/main.49a4f0d7.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.d07bc061.chunk.css",
     "static/js/2.d45c57d5.chunk.js",
     "static/css/main.49a4f0d7.chunk.css",
-    "static/js/main.a49f185b.chunk.js"
+    "static/js/main.bf04d593.chunk.js"
   ]
 }

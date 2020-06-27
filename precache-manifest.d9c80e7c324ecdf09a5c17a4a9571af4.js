@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d57628af28ea37069d2439e225a9243f",
+    "revision": "49c436ed6ab84979c1023e99d6264f91",
     "url": "/reactJS-riadiati-quizz/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactJS-riadiati-quizz/static/css/2.d07bc061.chunk.css"
   },
   {
-    "revision": "a2801e2ba976f5034a72",
+    "revision": "fe50992b046c7c4fcc37",
     "url": "/reactJS-riadiati-quizz/static/css/main.49a4f0d7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactJS-riadiati-quizz/static/js/2.d45c57d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a2801e2ba976f5034a72",
-    "url": "/reactJS-riadiati-quizz/static/js/main.a49f185b.chunk.js"
+    "revision": "fe50992b046c7c4fcc37",
+    "url": "/reactJS-riadiati-quizz/static/js/main.bf04d593.chunk.js"
   },
   {
     "revision": "93236581024b117ec474",
