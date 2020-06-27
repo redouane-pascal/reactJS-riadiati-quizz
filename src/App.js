@@ -7,6 +7,26 @@ import 'react-bootstrap-range-slider/dist/react-bootstrap-range-slider.css';
 import RangeSlider from 'react-bootstrap-range-slider';
 import capture from './img/junk/test.png';
 
+function logTheQuestion(){
+  var numQuizz = document.querySelector("#myinput_numQuizz").value;
+  var equation = document.querySelector("#equation").value;
+  var answer1 = document.querySelector("#answer1").value;
+  var answer2 = document.querySelector("#answer2").value;
+  var answer3 = document.querySelector("#answer3").value;
+  var answer4 = document.querySelector("#answer4").value;
+
+  var data = '\t\t{\r\n\t\t\t\t"id":"'+numQuizz+'",\r\n';
+  data = data + '\t\t\t\t"correct":"",\r\n';
+  data = data + '\t\t\t\t"question":"'+equation+'",\r\n';
+  data = data + '\t\t\t\t"answer1":"'+answer1+'",\r\n';
+  data = data + '\t\t\t\t"answer2":"'+answer2+'",\r\n';
+  data = data + '\t\t\t\t"answer3":"'+answer3+'",\r\n';
+  data = data + '\t\t\t\t"answer4":"'+answer4+'",\r\n';
+  data = data + '\t\t\t\t"questionFontSize":0,\r\n';
+  data = data + '\t\t\t\t"answerFontSize":0\r\n\t\t},\r\n';
+  console.log(data);
+}
+
 function retrieveImageFromClipboardAsBlob(pasteEvent, callback) {
   if (pasteEvent.clipboardData == false) {
     if (typeof (callback) == "function") {
@@ -39,7 +59,7 @@ window.addEventListener("paste", function (e) {
   // Handle the event
   retrieveImageFromClipboardAsBlob(e, function (imageBlob) {
     var numQuizz = document.querySelector("#myinput_numQuizz").value;
-    console.log(" numQuizz = " + numQuizz);
+    logTheQuestion();
 
     // If there's an image, display it in the canvas
     if (imageBlob) {
@@ -63,7 +83,7 @@ window.addEventListener("paste", function (e) {
         newCtx.drawImage(img, -952, -113);
 
         let uri = newCanvas.toDataURL();
-        console.log(newCanvas.toDataURL());
+        // console.log(newCanvas.toDataURL());
         var link = document.createElement('a');
         if (typeof link.download === 'string') {
           link.href = uri;
@@ -224,14 +244,14 @@ class App extends React.Component {
 
   // <MyLatex id="formula" url={this.state.formula_url} />
   renderMyLatex(id, url, cssClass, image_id) {
-    console.log("renderMyLatex passed !! ")
+    // console.log("renderMyLatex passed !! ")
     return (
       <MyLatex id={id} url={url} cssClass={cssClass} image_id={image_id} />
     )
   }
 
   handleOnChangeFormula(formula) {
-    console.log("onChangeFormula passed !! ")
+    // console.log("onChangeFormula passed !! ")
     this.setState({
       formula: formula,
       formula_url: "https://latex.codecogs.com/png.latex?%5Cdpi%7B" + this.state.dpi + "%7D%20%5C" + this.state.size + "%20" + formula,
@@ -261,7 +281,7 @@ class App extends React.Component {
     } else {
       dpi = 300;
     }
-    console.log("setDPI passed !!");
+    // console.log("setDPI passed !!");
     this.setState({
       dpi: dpi,
       formula_url: "https://latex.codecogs.com/png.latex?%5Cdpi%7B" + dpi + "%7D%20%5C" + this.state.size + "%20" + this.state.formula,
@@ -273,7 +293,7 @@ class App extends React.Component {
   }
 
   handleOnChangeSize(size) {
-    console.log("handleMsSelectChange passed !!");
+    // console.log("handleMsSelectChange passed !!");
     this.setState({
       size: size,
       formula_url: "https://latex.codecogs.com/png.latex?%5Cdpi%7B" + this.state.dpi + "%7D%20%5C" + size + "%20" + this.state.formula,
@@ -285,14 +305,14 @@ class App extends React.Component {
   }
 
   handleOnChangeNumQuizz(value) {
-    console.log("handleOnChangeNumQuizz passed !!");
+    // console.log("handleOnChangeNumQuizz passed !!");
     this.setState({
       numQuizz: value,
     })
   }
 
   handleOnChangeAnswer1(answer1) {
-    console.log("handleOnChangeAnswer1 passed !!");
+    // console.log("handleOnChangeAnswer1 passed !!");
     this.setState({
       answer1: answer1,
       answer1_url: "https://latex.codecogs.com/png.latex?%5Cdpi%7B" + this.state.dpi + "%7D%20%5C" + this.state.size + "%20" + answer1,
@@ -300,7 +320,7 @@ class App extends React.Component {
   }
 
   handleOnChangeAnswer2(answer2) {
-    console.log("handleOnChangeAnswer2 passed !!");
+    // console.log("handleOnChangeAnswer2 passed !!");
     this.setState({
       answer2: answer2,
       answer2_url: "https://latex.codecogs.com/png.latex?%5Cdpi%7B" + this.state.dpi + "%7D%20%5C" + this.state.size + "%20" + answer2,
@@ -308,7 +328,7 @@ class App extends React.Component {
   }
 
   handleOnChangeAnswer3(answer3) {
-    console.log("handleOnChangeAnswer3 passed !!");
+    // console.log("handleOnChangeAnswer3 passed !!");
     this.setState({
       answer3: answer3,
       answer3_url: "https://latex.codecogs.com/png.latex?%5Cdpi%7B" + this.state.dpi + "%7D%20%5C" + this.state.size + "%20" + answer3,
@@ -316,7 +336,7 @@ class App extends React.Component {
   }
 
   handleOnChangeAnswer4(answer4) {
-    console.log("handleOnChangeAnswer4 passed !!");
+    // console.log("handleOnChangeAnswer4 passed !!");
     this.setState({
       answer4: answer4,
       answer4_url: "https://latex.codecogs.com/png.latex?%5Cdpi%7B" + this.state.dpi + "%7D%20%5C" + this.state.size + "%20" + answer4,
