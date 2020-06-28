@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/reactJS-riadiati-quizz/precache-manifest.d9c80e7c324ecdf09a5c17a4a9571af4.js"
+  "/reactJS-riadiati-quizz/precache-manifest.2ea6d4ef086a560cd15ed521083d911a.js"
 );
 
 self.addEventListener('message', (event) => {

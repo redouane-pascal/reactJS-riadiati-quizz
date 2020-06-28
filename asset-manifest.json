@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/reactJS-riadiati-quizz/static/css/main.49a4f0d7.chunk.css",
-    "main.js": "/reactJS-riadiati-quizz/static/js/main.bf04d593.chunk.js",
-    "main.js.map": "/reactJS-riadiati-quizz/static/js/main.bf04d593.chunk.js.map",
+    "main.css": "/reactJS-riadiati-quizz/static/css/main.bde08092.chunk.css",
+    "main.js": "/reactJS-riadiati-quizz/static/js/main.f807aa33.chunk.js",
+    "main.js.map": "/reactJS-riadiati-quizz/static/js/main.f807aa33.chunk.js.map",
     "runtime-main.js": "/reactJS-riadiati-quizz/static/js/runtime-main.57650cd3.js",
     "runtime-main.js.map": "/reactJS-riadiati-quizz/static/js/runtime-main.57650cd3.js.map",
     "static/css/2.d07bc061.chunk.css": "/reactJS-riadiati-quizz/static/css/2.d07bc061.chunk.css",
     "static/js/2.d45c57d5.chunk.js": "/reactJS-riadiati-quizz/static/js/2.d45c57d5.chunk.js",
     "static/js/2.d45c57d5.chunk.js.map": "/reactJS-riadiati-quizz/static/js/2.d45c57d5.chunk.js.map",
     "index.html": "/reactJS-riadiati-quizz/index.html",
-    "precache-manifest.d9c80e7c324ecdf09a5c17a4a9571af4.js": "/reactJS-riadiati-quizz/precache-manifest.d9c80e7c324ecdf09a5c17a4a9571af4.js",
+    "precache-manifest.2ea6d4ef086a560cd15ed521083d911a.js": "/reactJS-riadiati-quizz/precache-manifest.2ea6d4ef086a560cd15ed521083d911a.js",
     "service-worker.js": "/reactJS-riadiati-quizz/service-worker.js",
     "static/css/2.d07bc061.chunk.css.map": "/reactJS-riadiati-quizz/static/css/2.d07bc061.chunk.css.map",
-    "static/css/main.49a4f0d7.chunk.css.map": "/reactJS-riadiati-quizz/static/css/main.49a4f0d7.chunk.css.map",
+    "static/css/main.bde08092.chunk.css.map": "/reactJS-riadiati-quizz/static/css/main.bde08092.chunk.css.map",
     "static/js/2.d45c57d5.chunk.js.LICENSE.txt": "/reactJS-riadiati-quizz/static/js/2.d45c57d5.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/reactJS-riadiati-quizz/static/media/bg_riadiati.bed041e1.png",
-    "static/media/test.png": "/reactJS-riadiati-quizz/static/media/test.9007e38e.png"
+    "static/media/App.css": "/reactJS-riadiati-quizz/static/media/bg_riadiati.f76028ae.png",
+    "static/media/bg_riadiati_v0.png": "/reactJS-riadiati-quizz/static/media/bg_riadiati_v0.bed041e1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.57650cd3.js",
     "static/css/2.d07bc061.chunk.css",
     "static/js/2.d45c57d5.chunk.js",
-    "static/css/main.49a4f0d7.chunk.css",
-    "static/js/main.bf04d593.chunk.js"
+    "static/css/main.bde08092.chunk.css",
+    "static/js/main.f807aa33.chunk.js"
   ]
 }
