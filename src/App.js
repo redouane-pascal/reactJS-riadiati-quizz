@@ -5,7 +5,7 @@ import Popper from 'popper.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-bootstrap-range-slider/dist/react-bootstrap-range-slider.css';
 import RangeSlider from 'react-bootstrap-range-slider';
-import capture from './img/junk/test.png';
+import capture from './img/bg_riadiati_v0.png';
 
 function logTheQuestion(){
   var numQuizz = document.querySelector("#myinput_numQuizz").value;
@@ -356,7 +356,7 @@ class App extends React.Component {
     return (
       <div>
         <div id="div_container_left" className="container">
-          <h2 style={h2cssStyle}>Riadiati Quizz Generator v0.1</h2>
+          <h2 style={h2cssStyle}>My MATH Quizz Generator v0.1</h2>
 
           <form className="form-horizontal" action="/action_page.php">
 
