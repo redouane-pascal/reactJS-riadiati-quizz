@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12c6bdaf9a1be749e444a012c45743dc",
+    "revision": "2bf9fb6c8e20fd3ddfdaad8eda565688",
     "url": "/reactJS-riadiati-quizz/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactJS-riadiati-quizz/static/css/2.d07bc061.chunk.css"
   },
   {
-    "revision": "465e411440f2137c194c",
-    "url": "/reactJS-riadiati-quizz/static/css/main.bde08092.chunk.css"
+    "revision": "b3ab9bb7d538715aa7bb",
+    "url": "/reactJS-riadiati-quizz/static/css/main.c3826ec9.chunk.css"
   },
   {
     "revision": "68efbd22009e2ddc7ee8",
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactJS-riadiati-quizz/static/js/2.d45c57d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "465e411440f2137c194c",
-    "url": "/reactJS-riadiati-quizz/static/js/main.f807aa33.chunk.js"
+    "revision": "b3ab9bb7d538715aa7bb",
+    "url": "/reactJS-riadiati-quizz/static/js/main.56c3c04b.chunk.js"
   },
   {
     "revision": "93236581024b117ec474",
     "url": "/reactJS-riadiati-quizz/static/js/runtime-main.57650cd3.js"
   },
   {
-    "revision": "f76028ae52917632c4b47749c90a8ead",
-    "url": "/reactJS-riadiati-quizz/static/media/bg_riadiati.f76028ae.png"
+    "revision": "687ad219756ba10f07a2b7e9fda8bd3e",
+    "url": "/reactJS-riadiati-quizz/static/media/bg_my_math.687ad219.png"
   },
   {
     "revision": "bed041e1537bd394ce70c63d913f9b71",
